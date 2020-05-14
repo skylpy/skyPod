@@ -34,11 +34,11 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"          #支持的平台及版本，这里我们呢用swift，直接上9.0
   spec.requires_arc = true                 #是否使用ARC
 
-  spec.source_files  = "skyPodModule/*.swift"    #OC可以使用类似这样"Classes/**/*.{h,m}"
+  spec.source_files  = "O2View/*.swift"    #OC可以使用类似这样"Classes/**/*.{h,m}"
 
   spec.frameworks = 'UIKit', 'QuartzCore', 'Foundation'    #所需的framework,多个用逗号隔开
 
-  spec.module_name = 'skyPodModule'              #模块名称
+  spec.module_name = 'O2View'              #模块名称
 
 
 end

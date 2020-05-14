@@ -13,7 +13,7 @@
 		D863716E246D296400788D45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D863716C246D296400788D45 /* Main.storyboard */; };
 		D8637170246D296500788D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D863716F246D296500788D45 /* Assets.xcassets */; };
 		D8637173246D296500788D45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8637171246D296500788D45 /* LaunchScreen.storyboard */; };
-		D863719E246D2CE000788D45 /* skyPodModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863719D246D2CE000788D45 /* skyPodModule.swift */; };
+		D86371A1246D2E9C00788D45 /* O2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86371A0246D2E9C00788D45 /* O2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		D8637174246D296500788D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8637179246D296500788D45 /* skyPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skyPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8637184246D296500788D45 /* skyPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skyPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D863719D246D2CE000788D45 /* skyPodModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = skyPodModule.swift; sourceTree = "<group>"; };
+		D86371A0246D2E9C00788D45 /* O2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = O2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		D8637165246D296400788D45 /* skyPod */ = {
 			isa = PBXGroup;
 			children = (
-				D863719C246D2CE000788D45 /* skyPodModule */,
+				D863719F246D2E9C00788D45 /* O2View */,
 				D8637166246D296400788D45 /* AppDelegate.swift */,
 				D8637168246D296400788D45 /* SceneDelegate.swift */,
 				D863716A246D296400788D45 /* ViewController.swift */,
@@ -105,13 +105,14 @@
 			path = skyPod;
 			sourceTree = "<group>";
 		};
-		D863719C246D2CE000788D45 /* skyPodModule */ = {
+		D863719F246D2E9C00788D45 /* O2View */ = {
 			isa = PBXGroup;
 			children = (
-				D863719D246D2CE000788D45 /* skyPodModule.swift */,
+				D86371A0246D2E9C00788D45 /* O2View.swift */,
 			);
-			path = skyPodModule;
-			sourceTree = SOURCE_ROOT;
+			name = O2View;
+			path = ../../O2View;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -245,9 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D863716B246D296400788D45 /* ViewController.swift in Sources */,
-				D863719E246D2CE000788D45 /* skyPodModule.swift in Sources */,
 				D8637167246D296400788D45 /* AppDelegate.swift in Sources */,
 				D8637169246D296400788D45 /* SceneDelegate.swift in Sources */,
+				D86371A1246D2E9C00788D45 /* O2View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
